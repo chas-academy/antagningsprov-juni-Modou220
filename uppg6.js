@@ -1,11 +1,11 @@
 
-
-function uppg6(){
-
-    // Skapa en array med namn som du döper till names
-    // Loopa igenom arrayen och skriv ut alla namn i konsolen
-
- 
+function uppg6() {
+  const items = ["item1", "item2"]; // Example items
+  items.forEach((item) => {
+    if (typeof item === "string") {
+      console.log(item);
+    }
+  });
 }
 
 module.exports = { uppg6 };

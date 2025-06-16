@@ -1,7 +1,9 @@
 
 function uppg2() {
-  const name = "Modou";
-  console.log(`${name} vill studera på Chas Academy.`);
+  const name = "Modou Lamin Manneh";
+  console.log("Mitt namn är " + name);
 }
+
+uppg2();
 
 module.exports = { uppg2 };

@@ -1,7 +1,7 @@
 
 function uppg2() {
-  const message = "Mitt namn är Modou och jag vill studera på Chas Academy.";
-  console.log(message);
+  const name = "Modou";
+  console.log(`${name} vill studera på Chas Academy.`);
 }
 
 module.exports = { uppg2 };

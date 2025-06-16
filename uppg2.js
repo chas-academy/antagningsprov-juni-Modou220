@@ -4,6 +4,4 @@ function uppg2() {
   console.log("Mitt namn är " + name);
 }
 
-uppg2();
-
-module.exports = { uppg2 };
+module.exports = { uppg2 }; 
